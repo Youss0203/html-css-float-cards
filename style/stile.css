@@ -31,16 +31,24 @@ p{
     clear: both;
 }
 
-.float-left{
+.colonne-float-left{
     float: left;
-    width: calc(100%/3);
+    width: calc(100% / 3 - 1rem);
     background-color: black;
     color: white;
-    margin-bottom:2rem
+    margin-bottom:2rem;
+    margin-right: 1rem;
 }
 
 img{
-    width: 80px;
+    width: 75px;
     float: left;
+    margin-right: .4rem
+
+}
+
+
+a{
+    color: cornflowerblue;
 }
 
