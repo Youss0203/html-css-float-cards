@@ -1,0 +1,26 @@
+/*reset*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+.container{
+    width: 65%;
+    margin: 0 auto;
+}
+#main-title{
+    color:rgb(207, 50, 79);
+    text-align:center;
+    margin-top:3rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    text-align:center
+}
+
