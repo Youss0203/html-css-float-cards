@@ -21,6 +21,26 @@ body{
 }
 
 p{
-    text-align:center
+    text-align:center;
+    margin-bottom: 3rem;
+}
+
+.clearfix{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+    width: calc(100%/3);
+    background-color: black;
+    color: white;
+    margin-bottom:2rem
+}
+
+img{
+    width: 80px;
+    float: left;
 }
 
